@@ -1,13 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-%   Style file for STFC Fellowship application
-%   
-%   Last modified by Phil Marshall on 2008-09-22 (Monday) 11:20 PDT
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \typeout{ }
-\typeout{Loading extra definitions from stfc.sty:}
+\typeout{Loading extra definitions from cv.sty:}
 \typeout{ }
 
 % \usepackage{citesort}
@@ -22,17 +16,34 @@
 \usepackage{setspace}
 \usepackage{color}
 \usepackage{fancyhdr}
-% \usepackage{helvet} 
-\usepackage{helvet,mathpple} 
-\renewcommand{\familydefault}{\sfdefault} 
+% \usepackage{helvet}
+\usepackage{helvet,mathpple}
+\renewcommand{\familydefault}{\sfdefault}
 
-% A4 paper:	21.0cm × 29.7cm
+% A4 paper:	21.0cm ï¿½ 29.7cm
 
 % \ifthenelse{\paperheight=297mm}{%
 % \if@A4paper
+%  \setlength{\oddsidemargin}{2.0cm}
+%  \setlength{\textwidth}{17.0cm}
+%  \setlength{\textheight}{26.0cm}
+%  \setlength{\topmargin}{1.0cm}
+%  \setlength{\headheight}{14pt}
+%  \setlength{\headsep}{\baselineskip}
+%  \setlength{\topskip}{0cm}
+%  \setlength{\footskip}{0.5cm}
+%  \addtolength{\topmargin}{-1in}
+%  \addtolength{\topmargin}{-\headheight}
+%  \addtolength{\topmargin}{-\headsep}
+% Not sure why I need this...
+%  \addtolength\topmargin{1cm}
+%  \addtolength{\oddsidemargin}{-1in}
+%  \setlength{\parindent}{0.5cm}
+%  \setlength{\parskip}{0.0cm}
+% \else
   \setlength{\oddsidemargin}{2.0cm}
-  \setlength{\textwidth}{17.0cm}
-  \setlength{\textheight}{26.0cm}
+  \setlength{\textwidth}{17.59cm}
+  \setlength{\textheight}{23.94cm}
   \setlength{\topmargin}{1.0cm}
   \setlength{\headheight}{14pt}
   \setlength{\headsep}{\baselineskip}
@@ -42,30 +53,20 @@
   \addtolength{\topmargin}{-\headheight}
   \addtolength{\topmargin}{-\headsep}
 % Not sure why I need this...
-  \addtolength\topmargin{1cm}
+  \addtolength\topmargin{1.5cm}
+  \addtolength\headsep{\baselineskip}
   \addtolength{\oddsidemargin}{-1in}
   \setlength{\parindent}{0.5cm}
   \setlength{\parskip}{0.0cm}
-% \else
-%   \setlength{\oddsidemargin}{0.7in}
-%   \setlength{\textwidth}{2.6in}
-%   \setlength{\parindent}{0cm}
-%   \setlength{\parskip}{0.08cm}
-%   \setlength{\textheight}{9.0in}
-%   \setlength{\headheight}{0.0in}
-%   \setlength{\headsep}{0.8in}
-%   \setlength{\topmargin}{1.0in}
-%   \addtolength{\topmargin}{-1in}
-%   \addtolength{\oddsidemargin}{-1in}
 % \fi
 
 % \pagestyle{fancy}
-% 
+%
 % Text shortcuts
 %
-\newcommand{\eg}{e.g.\xspace}		
-\newcommand{\ie}{i.e.\xspace}		
-\newcommand{\etc}{etc.\@\xspace}		
+\newcommand{\eg}{e.g.\xspace}
+\newcommand{\ie}{i.e.\xspace}
+\newcommand{\etc}{etc.\@\xspace}
 \newcommand{\vs}{vs.\@\xspace}
 \newcommand{\ea}{et~al.\@\xspace}
 \newcommand{\privcomm}{priv.\ comm.\@\xspace}
@@ -79,8 +80,8 @@
     \setlength{\labelsep}{3pt}\setlength{\itemsep}{0pt}%
     \setlength{\parsep}{0pt}\setlength{\topsep}{0pt}%
     \footnotesize}\item[\hfill\@makefnmark]#1%
-  \end{list}}  
-                    
+  \end{list}}
+
 % Tabular material:
 
 \setlength{\extrarowheight}{4pt}

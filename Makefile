@@ -12,7 +12,7 @@ SOURCES = src/*.tex
 TEXFILES= $(DOCUMENTS:=.tex)
 PDFFILES:= $(TEXFILES:.tex=.pdf)
 
-%.pdf: %.tex $(SOURCES)
+%.pdf: %.tex $(SOURCES) cv.sty
 	pdflatex $*
 	pdflatex $*
 
