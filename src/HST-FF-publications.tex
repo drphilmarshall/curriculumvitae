@@ -1,0 +1,398 @@
+% To get bibtex for all these papers, scrape the arxiv IDs out and query ADS:
+%
+% set texfile = src/HST-FF-publications.tex
+% set arxivIDs = ( `cat $texfile | grep astro-ph | cut -d'/' -f2 | sed s/'}'//g` )
+% set bibfile = $texfile:r.bib
+% foreach ID ( $arxivIDs )
+%   set url = "http://adsabs.harvard.edu/cgi-bin/nph-bib_query?arXiv:${ID}&data_type=BIBTEX&db_key=AST&nocookieset=1"
+%   wget -O junk "$url"
+%   tail -n +6 junk >> $bibfile
+% end
+% grep ARTICLE $bibfile | wc -l
+% 54
+% Then add 0608408 0601493 0112396 and Hamilton-Morris et al by hand
+% http://adsabs.harvard.edu/cgi-bin/nph-bib_query?bibcode=2012ApJ...748L..23H
+
+\subsection*{Lensing Publications 2011--2016}
+
+\begin{revnumerate}
+
+  \item{Agnello, A., \dots, \textbf{Marshall, P. J.} et al\\
+  \textit{Discovery of two gravitationally lensed quasars in the Dark Energy Survey}\\
+  MNRAS submitted, 2015.
+  \texttt{astro-ph/1508.01203}
+  }
+
+  \item{Meng, X-L., \ldots, \textbf{Marshall, P. J.} et al\\
+  \textit{Precision cosmology with time delay lenses: high resolution imaging requirements}\\
+  JCAP submitted, 2015.
+  \texttt{astro-ph/1506.07640}
+  }
+
+  \item{\textbf{Marshall, P. J.} et al\\
+  \textit{Space Warps -- I. Crowd-sourcing the Discovery of Gravitational Lenses}\\
+  MNRAS accepted, 2015.
+  \texttt{astro-ph/1504.06148}
+  }
+
+  \item{More, A., \ldots, \textbf{Marshall, P. J.} et al\\
+  \textit{Space Warps -- II. New Gravitational Lens Candidates from the CFHTLS Discovered through Citizen Science}\\
+  MNRAS accepted, 2015.
+  \texttt{astro-ph/1504.05587}
+  }
+
+  \item{Geach, J. E., \ldots, \textbf{Marshall, P. J.} et al\\
+  \textit{The Red Radio Ring: a gravitationally lensed hyperluminous infrared radio galaxy at z=2.553 discovered through citizen science}\\
+  MNRAS, \textbf{452}, 502, 2015.
+  \texttt{astro-ph/1503.05824}
+  }
+
+  \item{Mandelbaum, R., \ldots, \textbf{Marshall, P. J.} et al\\
+  \textit{GREAT3 results - I. Systematic errors in shear estimation and the impact of real galaxy morphology}\\
+  MNRAS, \textbf{450}, 2963, 2015.
+  \texttt{astro-ph/1412.1825}
+  }
+
+  \item{Chan, J. H. H., \ldots, \textbf{Marshall, P. J.} et al\\
+  \textit{Chitah: Strong-gravitational-lens Hunter in Imaging Surveys}\\
+  ApJ, \textbf{807}, 138, 2015.
+  \texttt{astro-ph/1411.5398}
+  }
+
+  \item{Mason, C., \ldots, \textbf{Marshall, P. J.} et al\\
+  \textit{Correcting the z ∼ 8 Galaxy Luminosity Function for Gravitational Lensing Magnification Bias}\\
+  ApJ, \textbf{805}, 79, 2015.
+  \texttt{astro-ph/1502.03795}
+  }
+
+  \item{K\"{u}eng, R., \ldots, \textbf{Marshall, P. J.} et al\\
+  \textit{Gravitational lens modelling in a citizen science context}\\
+  MNRAS, \textbf{447}, 2170, 2015.
+  \texttt{astro-ph/1502.00008}
+  }
+
+  \item{Hezaveh, Y., \ldots, \textbf{Marshall, P. J.} et al\\
+  \textit{Probing the Inner Kiloparsec of Massive Galaxies With Strong Gravitational Lensing}\\
+  ApJ, {\bf 799}, 22, 2015.
+  \texttt{astro-ph/1501.01757}
+  }
+
+  \item{Schneider, M. D., \ldots, \textbf{Marshall, P. J.} et al\\
+  \textit{Hierarchical probabilistic inference of cosmic shear}\\
+  ApJ accepted, 2015.
+  \texttt{astro-ph/1411.2608}
+  }
+
+  \item{Agnello, A., \ldots, \textbf{Marshall, P.~J.} et al\\
+  \textit{Data Mining for Gravitationally Lensed Quasars}\\
+  MNRAS, \textbf{448}, 1446, 2015.
+  \texttt{astro-ph/1410.4565}
+  }
+
+  \item{Sonnenfeld, Alessandro, \ldots, \textbf{Marshall, P.~J.} et al\\
+  \textit{The SL2S Galaxy-scale Lens Sample. V. Dark Matter Halos and Stellar IMF of Massive ETGs out to Redshift 0.8}\\
+  ApJ, \textbf{800}, 94, 2015.
+  \texttt{astro-ph/1410.1881}
+  }
+
+  \item{Liao, K., \ldots, \textbf{Marshall, P.~J.} et al\\
+  \textit{Strong Lens Time Delay Challenge: II. Results of TDC1}\\
+  ApJ, \textbf{800}, 11, 2015.
+  \texttt{astro-ph/1409.1254}
+  }
+
+  \item{Shu, Y., \ldots, \textbf{Marshall, P.~J.} et al\\
+  \textit{The Sloan Lens ACS Survey. XII. Extending Strong Lensing to Lower Masses}\\
+  ApJ, \textbf{803}, 71, 2015.
+  \texttt{astro-ph/1407.2240}
+  }
+
+  \item{Guennou, L., \ldots, \textbf{Marshall, P.~J.} et al\\
+  \textit{Mass profile and dynamical status of the z ~ 0.8 galaxy cluster LCDCS 0504}\\
+  A\&A, \textbf{566}, 13, 2014.
+  \texttt{astro-ph/1403.3614}
+  }
+
+  \item{Gavazzi, R., \textbf{Marshall, P.~J.} et al\\
+  \textit{RINGFINDER: Automated Detection of Galaxy-scale Gravitational Lenses in Ground-based Multi-filter Imaging Data}\\
+  ApJ, \textbf{785}, 144, 2014.
+  \texttt{astro-ph/1403.1041}
+  }
+
+  \item{{Cheung}, C.~C., \ldots, \textbf{Marshall, P.~J.} et al\\
+  \textit{Fermi Large Area Telescope Detection of Gravitational Lens Delayed Gamma-Ray Flares from Blazar B0218+357}\\
+  ApJ, \textbf{782}, 14, 2014.
+  \texttt{astro-ph/1401.0548}
+  }
+
+  \item{{Brewer}, B.~ J., \textbf{Marshall, P.~J.} et al\\
+  \textit{The SWELLS survey - VI. Hierarchical inference of the initial mass functions of bulges and discs}\\
+  MNRAS, \textbf{437}, 1950, 2014.
+  \texttt{astro-ph/1310.5177}
+  }
+
+  \item{{Dobler}, G., \ldots, \textbf{Marshall, P.~J.} et al\\
+  \textit{Strong Lens Time Delay Challenge: I. Experimental Design}\\
+  ApJ, \textbf{799}, 168, 2013.
+  \texttt{astro-ph/1310.4830}
+  }
+
+  \item{{Suyu}, S.~H., \ldots, \textbf{{Marshall}, P.~J.} et al\\
+  \textit{Cosmology from gravitational lens time delays and Planck data}\\
+  ApJ, \textbf{788}, 35, 2014.
+  \texttt{astro-ph/1306.4732}
+  }
+
+  \item{{Sonnenfeld}, A., \ldots, \textbf{{Marshall}, P.~J.} et al\\
+  \textit{The SL2S Galaxy-scale Lens Sample. IV. The dependence of the total mass density profile of early-type galaxies on redshift, stellar mass, and size}\\
+  ApJ, \textbf{777}, 98, 2013.
+  \texttt{astro-ph/1307.4759}
+  }
+
+  \item{{Sonnenfeld}, A., \ldots, \textbf{{Marshall}, P.~J.} et al\\
+  \textit{The SL2S Galaxy-scale Lens Sample. III. Lens Models, Surface Photometry and Stellar Masses for the final sample}\\
+  ApJ, \textbf{777}, 97, 2013.
+  \texttt{astro-ph/1307.4764}
+  }
+
+  \item{{Deane}, R.P., \ldots, \textbf{{Marshall}, P.~J.} et al\\
+  \textit{The preferentially magnified active nucleus in IRAS F10214+4724 - III. VLBI observations of the radio core}\\
+  MNRAS, \textbf{434}, 3322, 2013.
+  \texttt{astro-ph/1307.6566}
+  }
+
+  \item{Harvey, D., \ldots, \textbf{Marshall, P.~J.}, et al\\
+  \textit{Dark matter astrometry: accuracy of subhalo positions for the measurement of self-interaction cross-sections}\\
+  MNRAS, \textbf{433}, 151, 2013.
+  \texttt{astro-ph/1305.2117}
+  }
+
+  \item{Deane, R.~P., Heywood, I., Rawlings, S. \& \textbf{Marshall, P.~J.}\\
+  \textit{The preferentially magnified active nucleus in IRAS F10214+4724 - II. Spatially resolved cold molecular gas}\\
+  MNRAS, \textbf{434}, 23, 2013.
+  \texttt{astro-ph/1307.6565}
+  }
+
+  % End of FY2012
+
+  \item{Collett, T.~E., \textbf{Marshall, P.~J.}, et al\\
+  \textit{Reconstructing the lensing mass in the Universe from photometric catalogue data}\\
+  MNRAS, \textbf{432}, 679, 2013.
+  \texttt{astro-ph/1303.6564}
+  }
+
+  \item{Greene, Z.~S., \ldots, \textbf{Marshall, P.~J.} et al\\
+  \textit{Improving the Precision of Time-delay Cosmography with Observations of Galaxies along the Line of Sight}\\
+  ApJ, \textbf{768}, 39, 2013.
+  \texttt{astro-ph/1303.3588}
+  }
+
+  \item{Suyu, S.~H., \ldots, \textbf{Marshall, P. J.}, et al\\
+  \textit{Two Accurate Time-delay Distances from Strong Lensing: Implications for Cosmology}\\
+  ApJ, \textbf{766}, 70, 2013.
+  \texttt{astro-ph/1208.6010}
+  }
+
+  \item{{Deane}, R.~P., \ldots, \textbf{Marshall, P.~J.} et al\\
+  \textit{The preferentially magnified active nucleus in IRAS F10214+4724 - I. Lens model and spatially resolved radio emission}\\
+  MNRAS, \textbf{430}, 2, 2013.
+  \texttt{astro-ph/1307.6564}
+  }
+
+  \item{Dutton, A.~A., \ldots, \textbf{Marshall, P.J.} et al\\
+  \textit{The SWELLS survey - V. A Salpeter stellar initial mass function in the bulges of massive spiral galaxies}\\
+  MNRAS, \textbf{428}, 3183, 2013.
+  \texttt{astro-ph/1206.4310}
+  }
+
+  \item{Chang, C., \ldots, \textbf{Marshall, P.~J.} et al\\
+  \textit{Spurious shear in weak lensing with the Large Synoptic Survey Telescope}\\
+  MNRAS, \textbf{428}, 2695, 2013.
+  \texttt{astro-ph/1206.1378}
+  }
+
+  \item{{Chang}, C., \textbf{Marshall}, P.~J. et al\\
+  \textit{Atmospheric point spread function interpolation for weak lensing in short exposure imaging data}\\
+  MNRAS, \textbf{427}, 2572, 2012.
+  \texttt{astro-ph/1206.1383}
+  }
+
+  \item{{Gavazzi}, R., \ldots, \textbf{Marshall, P.~J.} et al\\
+  \textit{The SL2S Galaxy-scale Gravitational Lens Sample. I. The Alignment of Mass and Light in Massive Early-type Galaxies at z = 0.2-0.9}
+  ApJ, \textbf{761}, 170, 2012.
+  \texttt{astro-ph/1202.3852}
+  }
+
+  % End of FY2011
+
+  \item{{Treu}, T., \textbf{{Marshall}, P.~J.} \& Clowe D.\\
+  \textit{Resource Letter GL-1: Gravitational Lensing}\\
+  American Journal of Physics, \textbf{80}, 753, 2012.
+  \texttt{astro-ph/1206.0791}
+  }
+
+  \item{{Collett}, T. E., \ldots, \textbf{{Marshall}, P.~J.} et al\\
+  \textit{Constraining the dark energy equation of state with double source plane strong lenses}\\
+  MNRAS, \textbf{424}, 2864, 2012.
+  \texttt{astro-ph/1203.2758}
+  }
+
+  \item{{Barnab\'e}, M., \ldots \textbf{{Marshall}, P.~J.} et al\\
+  \textit{The SWELLS survey. IV. Precision measurements of the stellar and dark matter distributions in a spiral lens galaxy}\\
+  MNRAS, \textbf{423}, 1073, 2012.
+  \texttt{astro-ph/1201.1692}
+  }
+
+  \item{{Brewer}, B.J., \ldots, \textbf{{Marshall}, P.~J.} et al\\
+  \textit{The SWELLS survey. III. Disfavouring ``heavy'' initial mass functions for spiral lens galaxies}\\
+  MNRAS, \textbf{422}, 3574, 2012.
+  \texttt{astro-ph/1201.1677}
+  }
+
+  \item{{Sonnenfeld}, A., \ldots, \textbf{{Marshall}, P.~J.}, et al\\
+  \textit{Evidence for dark matter contraction and a Salpeter IMF in a massive early-type galaxy}\\
+  ApJ, \textbf{752}, 163, 2012.
+  \texttt{astro-ph/1111.4215}
+  }
+
+  \item{{Hamilton-Morris}, V., \ldots, \textbf{{Marshall}, P.~J.} et al\\
+  \textit{A Weak-lensing and Near-infrared Study of A3192: Disassembling a Richness Class 3 Abell Cluster}\\
+  ApJ, \textbf{748}, 23, 2012.
+  }
+
+  \item{{AMI Consortium}: {Hurley-Walker}, N., \ldots, \textbf{{Marshall}, P.~J.} et al\\
+  \textit{Bayesian analysis of weak-gravitational-lensing and Sunyaev-Zel'dovich data for six galaxy clusters}\\
+  MNRAS, \textbf{491}, 2921, 2012.
+  \texttt{astro-ph/1101.5912}
+  }
+
+  \item{{Treu}, T., \ldots \textbf{Marshall}, P.~J. et al\\
+  \textit{The SWELLS Survey. I. A large spectroscopically selected sample of edge-on late-type lens galaxies}\\
+  ApJ \textbf{417}, 1601, 2011.
+  \texttt{astro-ph/1104.5663}
+  }
+
+  \item{{Newton}, E.~R., \textbf{{Marshall}, P.~J.} et al\\
+  \textit{The Sloan Lens ACS Survey. XI. Beyond Hubble resolution: size, luminosity and stellar mass of compact lensed galaxies at intermediate redshift}\\
+  ApJ, \textbf{734}, 104, 2011.
+  \texttt{astro-ph/1104.2608}
+  }
+
+  % End of FY2010
+
+  \item{{Dutton}, A.~A., \ldots, \textbf{{Marshall}, P.~J.}, et al\\
+  \textit{The SWELLS survey. II.  Breaking the disk-halo degeneracy in the
+  spiral galaxy gravitational lens SDSS\,J2141$-$0001}\\
+  ApJ \textbf{417}, 1621, 2011.
+  \texttt{astro-ph/1101.1622}
+  }
+
+  \item{Auger, M.~W., \ldots, \textbf{Marshall, P.J.}, et al\\
+  \textit{A Compact Early-type Galaxy at z = 0.6 Under a Magnifying Lens: Evidence For Inside-out Growth}\\
+  MNRAS, \textbf{411}, 6, 2011.
+  \texttt{astro-ph/1011.0993}
+  }
+
+  \item{{Ruff}, A.~J., \ldots, \textbf{{Marshall}, P.~J.}, et al\\
+  \textit{The SL2S Galaxy-scale Lens Sample.  II. Cosmic Evolution of
+  Dark and Luminous Mass in Early-type Galaxies}\\
+  ApJ, \textbf{727}, 96, 2011.
+  \texttt{astro-ph/1008.3167}
+  }
+
+\end{revnumerate}
+
+
+% ------------------------------------------------------------------------------
+
+\subsection*{Lensing Publications 2011--2016: Selected Highlights}
+
+\begin{revnumerate}
+
+  \item{Sonnenfeld, Alessandro, \ldots, \textbf{Marshall, P.~J.} et al\\
+  \textit{The SL2S Galaxy-scale Lens Sample. V. Dark Matter Halos and Stellar IMF of Massive ETGs out to Redshift 0.8}\\
+  ApJ, \textbf{800}, 94, 2015.
+  \texttt{astro-ph/1410.1881}
+  }
+
+  \item{{Brewer}, B.~ J., \textbf{Marshall, P.~J.} et al\\
+  \textit{The SWELLS survey - VI. Hierarchical inference of the initial mass functions of bulges and discs}\\
+  MNRAS, \textbf{437}, 1950, 2014.
+  \texttt{astro-ph/1310.5177}
+  }
+
+  \item{{Suyu}, S.~H., \ldots, \textbf{{Marshall}, P.~J.} et al\\
+  \textit{Cosmology from gravitational lens time delays and Planck data}\\
+  ApJ, \textbf{788}, 35, 2014.
+  \texttt{astro-ph/1306.4732}
+  }
+
+  \item{Collett, T.~E., \textbf{Marshall, P.~J.}, et al\\
+  \textit{Reconstructing the lensing mass in the Universe from photometric catalogue data}\\
+  MNRAS, \textbf{432}, 679, 2013.
+  \texttt{astro-ph/1303.6564}
+  }
+
+  \item{{Chang}, C., \textbf{Marshall}, P.~J. et al\\
+  \textit{Atmospheric point spread function interpolation for weak lensing in short exposure imaging data}\\
+  MNRAS, \textbf{427}, 2572, 2012.
+  \texttt{astro-ph/1206.1383}
+  }
+
+\end{revnumerate}
+
+
+% ------------------------------------------------------------------------------
+
+\subsection*{Selected Earlier Lensing Publications}
+
+\begin{revnumerate}
+
+  \item{{Newman}, A.~B., \dots, \textbf{{Marshall}, P.~J.} et al\\
+  \textit{The Distribution of Dark Matter Over 3 Decades in Radius in the
+  Lensing Cluster Abell 611}\\
+  ApJ, \textbf{706}, 1078, 2009.
+  \texttt{astro-ph/0909.3527}
+  }
+
+  \item{Suyu, S., \textbf{{Marshall}, P.~J.}, et al\\
+  \textit{Dissecting the Gravitational Lens B1608+656: Lens Potential Reconstruction}\\
+  ApJ, \textbf{691}, 277, 2009.
+  \texttt{astro-ph/0804.2827}
+  }
+
+  \item{\textbf{{Marshall}, P.~J.}, et al\\
+  \textit{Super-resolving distant galaxies with gravitational telescopes: Keck-LGSAO and Hubble imaging of the lens system SDSSJ0737+3216}\\
+  ApJ, \textbf{671}, 1196, 2007.
+  \texttt{astro-ph/0710.0637}
+  }
+
+  \item{Jullo, E., \ldots, \textbf{{Marshall}, P.~J.}, et al\\
+  \textit{A Bayesian approach to strong lensing modelling of galaxy clusters}\\
+  New J.\ Phys., 9, 447, 2007.
+  \texttt{astro-ph/0706.0048}
+  }
+
+  \item{Bradac, M., \ldots, \textbf{{Marshall}, P.~J.}, et al\\
+  \textit{Strong and weak lensing united III: Measuring the mass distribution of the  merging galaxy cluster 1E0657-56}\\
+  ApJ, \textbf{652}, 937, 2006.
+  \texttt{astro-ph/0608408}
+  }
+
+  \item{Suyu, S., \textbf{{Marshall}, P.~J.}, Hobson, M.~P. \& Blandford, R.~D.\\
+  \textit{A Bayesian analysis of regularised source inversions in gravitational lensing}\\
+  MNRAS, \textbf{371}, 983, 2006.
+  \texttt{astro-ph/0601493}
+  }
+
+  \item{\textbf{Marshall, P.J.}, Hobson, M.P., Gull, S.F. \& Bridle, S.L.\\
+  \textit{Maximum-entropy weak lens reconstruction: improved methods and application to data}.\\
+  MNRAS, \textbf{335}, 1037, 2002.
+  \texttt{astro-ph/0112396}
+  }
+
+\end{revnumerate}
+
+
+
+% % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % % %
