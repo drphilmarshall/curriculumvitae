@@ -5,7 +5,8 @@ clean:
 
 DOCUMENTS = PhilMarshall_NSF-bio \
             PhilMarshall_cv+publications \
-            PhilMarshall_cv
+            PhilMarshall_cv \
+			PhilMarshall_Publications
 
 SOURCES = src/*.tex
 
